@@ -2,6 +2,7 @@
 
 #include <vector>
 #include "Parser.h"
+#include "AST/NopExprAST.h"
 
 
 Parser::Parser(Scanner *scanner)
@@ -107,6 +108,8 @@ ExprAST *Parser::handlePrimary() {
             return handleWhile();
         case TOK_IF:
             return handleIf();
+        case TOK_NOP:
+            return handleNop();
         default:
             return nullptr;
     }
@@ -265,6 +268,13 @@ ExprAST *Parser::handleReturn() {
 
 }
 
+ExprAST *Parser::handleNop() {
+    if(currentToken.type == TOK_NOP)
+        getNextToken();
+
+    return new NopExprAST();
+}
+
 
 WhileExprAST *Parser::handleWhile() {
 
@@ -341,6 +351,7 @@ IfExprAST *Parser::handleIf() {
 
     return new IfExprAST(Cond,Then,Else);
 }
+
 
 ExprAST *Parser::Error(const char *str , int line) {
     fprintf(stderr, "Error: %s on line %d\n", str, line);

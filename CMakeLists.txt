@@ -23,12 +23,12 @@ execute_process(COMMAND ${LLVM_CONFIG} --libs
         OUTPUT_VARIABLE LLVM_LIBS)
 
 set(CMAKE_C_COMPILER clang)
-set(CMAKE_CXX_COMPILER clang++)
+set(CMAKE_CXX_COMPILER g++)
 set(CMAKE_LINKER llvm-link)
 add_definitions("${LLVM_FLAGS}")
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES main.cpp Tokens.h Scanner.cpp Scanner.h AST/ExprAST.cpp AST/ExprAST.h AST/NumberExprAST.cpp AST/NumberExprAST.h AST/VariableExprAST.cpp AST/VariableExprAST.h AST/CallExprAST.cpp AST/CallExprAST.h AST/PrototypeAST.cpp AST/PrototypeAST.h AST/FunctionAST.cpp AST/FunctionAST.h Parser.cpp Parser.h AST/BinaryExprAST.cpp AST/BinaryExprAST.h AST/IdentifierExprAST.cpp AST/IdentifierExprAST.h Emit.cpp Emit.h AST/PrintExprAST.cpp AST/PrintExprAST.h AST/ReturnExprAST.cpp AST/ReturnExprAST.h AST/WhileExprAST.cpp AST/WhileExprAST.h AST/IfExprAST.cpp AST/IfExprAST.h)
+set(SOURCE_FILES main.cpp Tokens.h Scanner.cpp Scanner.h AST/ExprAST.cpp AST/ExprAST.h AST/NumberExprAST.cpp AST/NumberExprAST.h AST/VariableExprAST.cpp AST/VariableExprAST.h AST/CallExprAST.cpp AST/CallExprAST.h AST/PrototypeAST.cpp AST/PrototypeAST.h AST/FunctionAST.cpp AST/FunctionAST.h Parser.cpp Parser.h AST/BinaryExprAST.cpp AST/BinaryExprAST.h AST/IdentifierExprAST.cpp AST/IdentifierExprAST.h Emit.cpp Emit.h AST/PrintExprAST.cpp AST/PrintExprAST.h AST/ReturnExprAST.cpp AST/ReturnExprAST.h AST/WhileExprAST.cpp AST/WhileExprAST.h AST/IfExprAST.cpp AST/IfExprAST.h AST/NopExprAST.cpp AST/NopExprAST.h)
 add_executable(MTProject ${SOURCE_FILES})
 target_link_libraries(${PROJECT_NAME} ${LLVM_LD_FLAGS} ${LLVM_LIBS} ${LLVM_EXECENGINE_LD_FLAGS} -lpthread -ldl -ltinfo -lz)

@@ -49,6 +49,7 @@ enum Tokens
     TOK_LOG_OR = '~',
     TOK_LOG_AND = '"',
     TOK_LOG_NOT = '!',
+    TOK_NOP = '_',
 
 
 };

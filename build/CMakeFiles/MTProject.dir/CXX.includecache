@@ -68,6 +68,14 @@ IfExprAST.h
 ExprAST.h
 /home/milendimitrov/Desktop/MTProject/AST/ExprAST.h
 
+/home/milendimitrov/Desktop/MTProject/AST/NopExprAST.cpp
+NopExprAST.h
+/home/milendimitrov/Desktop/MTProject/AST/NopExprAST.h
+
+/home/milendimitrov/Desktop/MTProject/AST/NopExprAST.h
+ExprAST.h
+/home/milendimitrov/Desktop/MTProject/AST/ExprAST.h
+
 /home/milendimitrov/Desktop/MTProject/AST/NumberExprAST.cpp
 NumberExprAST.h
 /home/milendimitrov/Desktop/MTProject/AST/NumberExprAST.h
@@ -129,6 +137,8 @@ ExprAST.h
 /home/milendimitrov/Desktop/MTProject/Emit.cpp
 Emit.h
 /home/milendimitrov/Desktop/MTProject/Emit.h
+AST/NopExprAST.h
+/home/milendimitrov/Desktop/MTProject/AST/NopExprAST.h
 
 /home/milendimitrov/Desktop/MTProject/Emit.h
 AST/BinaryExprAST.h
@@ -159,6 +169,8 @@ vector
 -
 Parser.h
 /home/milendimitrov/Desktop/MTProject/Parser.h
+AST/NopExprAST.h
+/home/milendimitrov/Desktop/MTProject/AST/NopExprAST.h
 
 /home/milendimitrov/Desktop/MTProject/Parser.h
 map

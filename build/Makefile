@@ -285,6 +285,33 @@ AST/IfExprAST.cpp.s:
 	$(MAKE) -f CMakeFiles/MTProject.dir/build.make CMakeFiles/MTProject.dir/AST/IfExprAST.cpp.s
 .PHONY : AST/IfExprAST.cpp.s
 
+AST/NopExprAST.o: AST/NopExprAST.cpp.o
+
+.PHONY : AST/NopExprAST.o
+
+# target to build an object file
+AST/NopExprAST.cpp.o:
+	$(MAKE) -f CMakeFiles/MTProject.dir/build.make CMakeFiles/MTProject.dir/AST/NopExprAST.cpp.o
+.PHONY : AST/NopExprAST.cpp.o
+
+AST/NopExprAST.i: AST/NopExprAST.cpp.i
+
+.PHONY : AST/NopExprAST.i
+
+# target to preprocess a source file
+AST/NopExprAST.cpp.i:
+	$(MAKE) -f CMakeFiles/MTProject.dir/build.make CMakeFiles/MTProject.dir/AST/NopExprAST.cpp.i
+.PHONY : AST/NopExprAST.cpp.i
+
+AST/NopExprAST.s: AST/NopExprAST.cpp.s
+
+.PHONY : AST/NopExprAST.s
+
+# target to generate assembly for a file
+AST/NopExprAST.cpp.s:
+	$(MAKE) -f CMakeFiles/MTProject.dir/build.make CMakeFiles/MTProject.dir/AST/NopExprAST.cpp.s
+.PHONY : AST/NopExprAST.cpp.s
+
 AST/NumberExprAST.o: AST/NumberExprAST.cpp.o
 
 .PHONY : AST/NumberExprAST.o
@@ -582,6 +609,9 @@ help:
 	@echo "... AST/IfExprAST.o"
 	@echo "... AST/IfExprAST.i"
 	@echo "... AST/IfExprAST.s"
+	@echo "... AST/NopExprAST.o"
+	@echo "... AST/NopExprAST.i"
+	@echo "... AST/NopExprAST.s"
 	@echo "... AST/NumberExprAST.o"
 	@echo "... AST/NumberExprAST.i"
 	@echo "... AST/NumberExprAST.s"

@@ -41,5 +41,7 @@ int main()
 
 	printf(foo());
 
+	nop;
+
 	return 0;
 }

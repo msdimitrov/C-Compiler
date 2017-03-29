@@ -1,6 +1,7 @@
 
 
 #include "Emit.h"
+#include "AST/NopExprAST.h"
 
 
 Emit::Emit(std::vector<ExprAST *> expressions) : _expressions(expressions) {
@@ -155,6 +156,12 @@ llvm::Value *ReturnExprAST::emit(llvm::IRBuilder<> &builder, llvm::Module &modul
 {
     return builder.CreateRet(_identifier->emit(builder,module));
 
+}
+
+llvm::Value *NopExprAST::emit(llvm::IRBuilder<> &builder, llvm::Module &module)
+{
+    llvm::Constant *nop = llvm::Constant::getNullValue(llvm::IntegerType::getInt32Ty(builder.getContext()));
+    return builder.CreateRet(nop);
 }
 
 llvm::Value *IfExprAST::emit(llvm::IRBuilder<> &builder, llvm::Module &module)

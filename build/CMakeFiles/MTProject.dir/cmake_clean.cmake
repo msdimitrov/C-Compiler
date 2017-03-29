@@ -15,6 +15,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/MTProject.dir/AST/ReturnExprAST.cpp.o"
   "CMakeFiles/MTProject.dir/AST/WhileExprAST.cpp.o"
   "CMakeFiles/MTProject.dir/AST/IfExprAST.cpp.o"
+  "CMakeFiles/MTProject.dir/AST/NopExprAST.cpp.o"
   "MTProject.pdb"
   "MTProject"
 )

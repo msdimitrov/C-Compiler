@@ -39,6 +39,7 @@ class Parser {
     ExprAST *handleBinaryOpExpression(int ExprPrec, ExprAST *LHS);
     ExprAST *handlePrintf();
     ExprAST *handleReturn();
+    ExprAST *handleNop();
     WhileExprAST *handleWhile();
     IfExprAST *handleIf();
     VariableExprAST *handleVariable(std::string identifier, std::string type);

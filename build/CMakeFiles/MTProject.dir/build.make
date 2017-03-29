@@ -60,15 +60,15 @@ include CMakeFiles/MTProject.dir/flags.make
 CMakeFiles/MTProject.dir/main.cpp.o: CMakeFiles/MTProject.dir/flags.make
 CMakeFiles/MTProject.dir/main.cpp.o: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/milendimitrov/Desktop/MTProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MTProject.dir/main.cpp.o"
-	clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/main.cpp.o -c /home/milendimitrov/Desktop/MTProject/main.cpp
+	g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/main.cpp.o -c /home/milendimitrov/Desktop/MTProject/main.cpp
 
 CMakeFiles/MTProject.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MTProject.dir/main.cpp.i"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/main.cpp > CMakeFiles/MTProject.dir/main.cpp.i
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/main.cpp > CMakeFiles/MTProject.dir/main.cpp.i
 
 CMakeFiles/MTProject.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MTProject.dir/main.cpp.s"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/main.cpp -o CMakeFiles/MTProject.dir/main.cpp.s
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/main.cpp -o CMakeFiles/MTProject.dir/main.cpp.s
 
 CMakeFiles/MTProject.dir/main.cpp.o.requires:
 
@@ -84,15 +84,15 @@ CMakeFiles/MTProject.dir/main.cpp.o.provides.build: CMakeFiles/MTProject.dir/mai
 CMakeFiles/MTProject.dir/Scanner.cpp.o: CMakeFiles/MTProject.dir/flags.make
 CMakeFiles/MTProject.dir/Scanner.cpp.o: ../Scanner.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/milendimitrov/Desktop/MTProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MTProject.dir/Scanner.cpp.o"
-	clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/Scanner.cpp.o -c /home/milendimitrov/Desktop/MTProject/Scanner.cpp
+	g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/Scanner.cpp.o -c /home/milendimitrov/Desktop/MTProject/Scanner.cpp
 
 CMakeFiles/MTProject.dir/Scanner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MTProject.dir/Scanner.cpp.i"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/Scanner.cpp > CMakeFiles/MTProject.dir/Scanner.cpp.i
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/Scanner.cpp > CMakeFiles/MTProject.dir/Scanner.cpp.i
 
 CMakeFiles/MTProject.dir/Scanner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MTProject.dir/Scanner.cpp.s"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/Scanner.cpp -o CMakeFiles/MTProject.dir/Scanner.cpp.s
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/Scanner.cpp -o CMakeFiles/MTProject.dir/Scanner.cpp.s
 
 CMakeFiles/MTProject.dir/Scanner.cpp.o.requires:
 
@@ -108,15 +108,15 @@ CMakeFiles/MTProject.dir/Scanner.cpp.o.provides.build: CMakeFiles/MTProject.dir/
 CMakeFiles/MTProject.dir/AST/ExprAST.cpp.o: CMakeFiles/MTProject.dir/flags.make
 CMakeFiles/MTProject.dir/AST/ExprAST.cpp.o: ../AST/ExprAST.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/milendimitrov/Desktop/MTProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MTProject.dir/AST/ExprAST.cpp.o"
-	clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/AST/ExprAST.cpp.o -c /home/milendimitrov/Desktop/MTProject/AST/ExprAST.cpp
+	g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/AST/ExprAST.cpp.o -c /home/milendimitrov/Desktop/MTProject/AST/ExprAST.cpp
 
 CMakeFiles/MTProject.dir/AST/ExprAST.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MTProject.dir/AST/ExprAST.cpp.i"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/AST/ExprAST.cpp > CMakeFiles/MTProject.dir/AST/ExprAST.cpp.i
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/AST/ExprAST.cpp > CMakeFiles/MTProject.dir/AST/ExprAST.cpp.i
 
 CMakeFiles/MTProject.dir/AST/ExprAST.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MTProject.dir/AST/ExprAST.cpp.s"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/AST/ExprAST.cpp -o CMakeFiles/MTProject.dir/AST/ExprAST.cpp.s
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/AST/ExprAST.cpp -o CMakeFiles/MTProject.dir/AST/ExprAST.cpp.s
 
 CMakeFiles/MTProject.dir/AST/ExprAST.cpp.o.requires:
 
@@ -132,15 +132,15 @@ CMakeFiles/MTProject.dir/AST/ExprAST.cpp.o.provides.build: CMakeFiles/MTProject.
 CMakeFiles/MTProject.dir/AST/NumberExprAST.cpp.o: CMakeFiles/MTProject.dir/flags.make
 CMakeFiles/MTProject.dir/AST/NumberExprAST.cpp.o: ../AST/NumberExprAST.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/milendimitrov/Desktop/MTProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MTProject.dir/AST/NumberExprAST.cpp.o"
-	clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/AST/NumberExprAST.cpp.o -c /home/milendimitrov/Desktop/MTProject/AST/NumberExprAST.cpp
+	g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/AST/NumberExprAST.cpp.o -c /home/milendimitrov/Desktop/MTProject/AST/NumberExprAST.cpp
 
 CMakeFiles/MTProject.dir/AST/NumberExprAST.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MTProject.dir/AST/NumberExprAST.cpp.i"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/AST/NumberExprAST.cpp > CMakeFiles/MTProject.dir/AST/NumberExprAST.cpp.i
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/AST/NumberExprAST.cpp > CMakeFiles/MTProject.dir/AST/NumberExprAST.cpp.i
 
 CMakeFiles/MTProject.dir/AST/NumberExprAST.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MTProject.dir/AST/NumberExprAST.cpp.s"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/AST/NumberExprAST.cpp -o CMakeFiles/MTProject.dir/AST/NumberExprAST.cpp.s
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/AST/NumberExprAST.cpp -o CMakeFiles/MTProject.dir/AST/NumberExprAST.cpp.s
 
 CMakeFiles/MTProject.dir/AST/NumberExprAST.cpp.o.requires:
 
@@ -156,15 +156,15 @@ CMakeFiles/MTProject.dir/AST/NumberExprAST.cpp.o.provides.build: CMakeFiles/MTPr
 CMakeFiles/MTProject.dir/AST/VariableExprAST.cpp.o: CMakeFiles/MTProject.dir/flags.make
 CMakeFiles/MTProject.dir/AST/VariableExprAST.cpp.o: ../AST/VariableExprAST.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/milendimitrov/Desktop/MTProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MTProject.dir/AST/VariableExprAST.cpp.o"
-	clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/AST/VariableExprAST.cpp.o -c /home/milendimitrov/Desktop/MTProject/AST/VariableExprAST.cpp
+	g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/AST/VariableExprAST.cpp.o -c /home/milendimitrov/Desktop/MTProject/AST/VariableExprAST.cpp
 
 CMakeFiles/MTProject.dir/AST/VariableExprAST.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MTProject.dir/AST/VariableExprAST.cpp.i"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/AST/VariableExprAST.cpp > CMakeFiles/MTProject.dir/AST/VariableExprAST.cpp.i
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/AST/VariableExprAST.cpp > CMakeFiles/MTProject.dir/AST/VariableExprAST.cpp.i
 
 CMakeFiles/MTProject.dir/AST/VariableExprAST.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MTProject.dir/AST/VariableExprAST.cpp.s"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/AST/VariableExprAST.cpp -o CMakeFiles/MTProject.dir/AST/VariableExprAST.cpp.s
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/AST/VariableExprAST.cpp -o CMakeFiles/MTProject.dir/AST/VariableExprAST.cpp.s
 
 CMakeFiles/MTProject.dir/AST/VariableExprAST.cpp.o.requires:
 
@@ -180,15 +180,15 @@ CMakeFiles/MTProject.dir/AST/VariableExprAST.cpp.o.provides.build: CMakeFiles/MT
 CMakeFiles/MTProject.dir/AST/CallExprAST.cpp.o: CMakeFiles/MTProject.dir/flags.make
 CMakeFiles/MTProject.dir/AST/CallExprAST.cpp.o: ../AST/CallExprAST.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/milendimitrov/Desktop/MTProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MTProject.dir/AST/CallExprAST.cpp.o"
-	clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/AST/CallExprAST.cpp.o -c /home/milendimitrov/Desktop/MTProject/AST/CallExprAST.cpp
+	g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/AST/CallExprAST.cpp.o -c /home/milendimitrov/Desktop/MTProject/AST/CallExprAST.cpp
 
 CMakeFiles/MTProject.dir/AST/CallExprAST.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MTProject.dir/AST/CallExprAST.cpp.i"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/AST/CallExprAST.cpp > CMakeFiles/MTProject.dir/AST/CallExprAST.cpp.i
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/AST/CallExprAST.cpp > CMakeFiles/MTProject.dir/AST/CallExprAST.cpp.i
 
 CMakeFiles/MTProject.dir/AST/CallExprAST.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MTProject.dir/AST/CallExprAST.cpp.s"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/AST/CallExprAST.cpp -o CMakeFiles/MTProject.dir/AST/CallExprAST.cpp.s
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/AST/CallExprAST.cpp -o CMakeFiles/MTProject.dir/AST/CallExprAST.cpp.s
 
 CMakeFiles/MTProject.dir/AST/CallExprAST.cpp.o.requires:
 
@@ -204,15 +204,15 @@ CMakeFiles/MTProject.dir/AST/CallExprAST.cpp.o.provides.build: CMakeFiles/MTProj
 CMakeFiles/MTProject.dir/AST/PrototypeAST.cpp.o: CMakeFiles/MTProject.dir/flags.make
 CMakeFiles/MTProject.dir/AST/PrototypeAST.cpp.o: ../AST/PrototypeAST.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/milendimitrov/Desktop/MTProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MTProject.dir/AST/PrototypeAST.cpp.o"
-	clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/AST/PrototypeAST.cpp.o -c /home/milendimitrov/Desktop/MTProject/AST/PrototypeAST.cpp
+	g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/AST/PrototypeAST.cpp.o -c /home/milendimitrov/Desktop/MTProject/AST/PrototypeAST.cpp
 
 CMakeFiles/MTProject.dir/AST/PrototypeAST.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MTProject.dir/AST/PrototypeAST.cpp.i"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/AST/PrototypeAST.cpp > CMakeFiles/MTProject.dir/AST/PrototypeAST.cpp.i
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/AST/PrototypeAST.cpp > CMakeFiles/MTProject.dir/AST/PrototypeAST.cpp.i
 
 CMakeFiles/MTProject.dir/AST/PrototypeAST.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MTProject.dir/AST/PrototypeAST.cpp.s"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/AST/PrototypeAST.cpp -o CMakeFiles/MTProject.dir/AST/PrototypeAST.cpp.s
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/AST/PrototypeAST.cpp -o CMakeFiles/MTProject.dir/AST/PrototypeAST.cpp.s
 
 CMakeFiles/MTProject.dir/AST/PrototypeAST.cpp.o.requires:
 
@@ -228,15 +228,15 @@ CMakeFiles/MTProject.dir/AST/PrototypeAST.cpp.o.provides.build: CMakeFiles/MTPro
 CMakeFiles/MTProject.dir/AST/FunctionAST.cpp.o: CMakeFiles/MTProject.dir/flags.make
 CMakeFiles/MTProject.dir/AST/FunctionAST.cpp.o: ../AST/FunctionAST.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/milendimitrov/Desktop/MTProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MTProject.dir/AST/FunctionAST.cpp.o"
-	clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/AST/FunctionAST.cpp.o -c /home/milendimitrov/Desktop/MTProject/AST/FunctionAST.cpp
+	g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/AST/FunctionAST.cpp.o -c /home/milendimitrov/Desktop/MTProject/AST/FunctionAST.cpp
 
 CMakeFiles/MTProject.dir/AST/FunctionAST.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MTProject.dir/AST/FunctionAST.cpp.i"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/AST/FunctionAST.cpp > CMakeFiles/MTProject.dir/AST/FunctionAST.cpp.i
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/AST/FunctionAST.cpp > CMakeFiles/MTProject.dir/AST/FunctionAST.cpp.i
 
 CMakeFiles/MTProject.dir/AST/FunctionAST.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MTProject.dir/AST/FunctionAST.cpp.s"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/AST/FunctionAST.cpp -o CMakeFiles/MTProject.dir/AST/FunctionAST.cpp.s
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/AST/FunctionAST.cpp -o CMakeFiles/MTProject.dir/AST/FunctionAST.cpp.s
 
 CMakeFiles/MTProject.dir/AST/FunctionAST.cpp.o.requires:
 
@@ -252,15 +252,15 @@ CMakeFiles/MTProject.dir/AST/FunctionAST.cpp.o.provides.build: CMakeFiles/MTProj
 CMakeFiles/MTProject.dir/Parser.cpp.o: CMakeFiles/MTProject.dir/flags.make
 CMakeFiles/MTProject.dir/Parser.cpp.o: ../Parser.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/milendimitrov/Desktop/MTProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MTProject.dir/Parser.cpp.o"
-	clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/Parser.cpp.o -c /home/milendimitrov/Desktop/MTProject/Parser.cpp
+	g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/Parser.cpp.o -c /home/milendimitrov/Desktop/MTProject/Parser.cpp
 
 CMakeFiles/MTProject.dir/Parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MTProject.dir/Parser.cpp.i"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/Parser.cpp > CMakeFiles/MTProject.dir/Parser.cpp.i
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/Parser.cpp > CMakeFiles/MTProject.dir/Parser.cpp.i
 
 CMakeFiles/MTProject.dir/Parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MTProject.dir/Parser.cpp.s"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/Parser.cpp -o CMakeFiles/MTProject.dir/Parser.cpp.s
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/Parser.cpp -o CMakeFiles/MTProject.dir/Parser.cpp.s
 
 CMakeFiles/MTProject.dir/Parser.cpp.o.requires:
 
@@ -276,15 +276,15 @@ CMakeFiles/MTProject.dir/Parser.cpp.o.provides.build: CMakeFiles/MTProject.dir/P
 CMakeFiles/MTProject.dir/AST/BinaryExprAST.cpp.o: CMakeFiles/MTProject.dir/flags.make
 CMakeFiles/MTProject.dir/AST/BinaryExprAST.cpp.o: ../AST/BinaryExprAST.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/milendimitrov/Desktop/MTProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/MTProject.dir/AST/BinaryExprAST.cpp.o"
-	clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/AST/BinaryExprAST.cpp.o -c /home/milendimitrov/Desktop/MTProject/AST/BinaryExprAST.cpp
+	g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/AST/BinaryExprAST.cpp.o -c /home/milendimitrov/Desktop/MTProject/AST/BinaryExprAST.cpp
 
 CMakeFiles/MTProject.dir/AST/BinaryExprAST.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MTProject.dir/AST/BinaryExprAST.cpp.i"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/AST/BinaryExprAST.cpp > CMakeFiles/MTProject.dir/AST/BinaryExprAST.cpp.i
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/AST/BinaryExprAST.cpp > CMakeFiles/MTProject.dir/AST/BinaryExprAST.cpp.i
 
 CMakeFiles/MTProject.dir/AST/BinaryExprAST.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MTProject.dir/AST/BinaryExprAST.cpp.s"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/AST/BinaryExprAST.cpp -o CMakeFiles/MTProject.dir/AST/BinaryExprAST.cpp.s
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/AST/BinaryExprAST.cpp -o CMakeFiles/MTProject.dir/AST/BinaryExprAST.cpp.s
 
 CMakeFiles/MTProject.dir/AST/BinaryExprAST.cpp.o.requires:
 
@@ -300,15 +300,15 @@ CMakeFiles/MTProject.dir/AST/BinaryExprAST.cpp.o.provides.build: CMakeFiles/MTPr
 CMakeFiles/MTProject.dir/AST/IdentifierExprAST.cpp.o: CMakeFiles/MTProject.dir/flags.make
 CMakeFiles/MTProject.dir/AST/IdentifierExprAST.cpp.o: ../AST/IdentifierExprAST.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/milendimitrov/Desktop/MTProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MTProject.dir/AST/IdentifierExprAST.cpp.o"
-	clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/AST/IdentifierExprAST.cpp.o -c /home/milendimitrov/Desktop/MTProject/AST/IdentifierExprAST.cpp
+	g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/AST/IdentifierExprAST.cpp.o -c /home/milendimitrov/Desktop/MTProject/AST/IdentifierExprAST.cpp
 
 CMakeFiles/MTProject.dir/AST/IdentifierExprAST.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MTProject.dir/AST/IdentifierExprAST.cpp.i"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/AST/IdentifierExprAST.cpp > CMakeFiles/MTProject.dir/AST/IdentifierExprAST.cpp.i
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/AST/IdentifierExprAST.cpp > CMakeFiles/MTProject.dir/AST/IdentifierExprAST.cpp.i
 
 CMakeFiles/MTProject.dir/AST/IdentifierExprAST.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MTProject.dir/AST/IdentifierExprAST.cpp.s"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/AST/IdentifierExprAST.cpp -o CMakeFiles/MTProject.dir/AST/IdentifierExprAST.cpp.s
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/AST/IdentifierExprAST.cpp -o CMakeFiles/MTProject.dir/AST/IdentifierExprAST.cpp.s
 
 CMakeFiles/MTProject.dir/AST/IdentifierExprAST.cpp.o.requires:
 
@@ -324,15 +324,15 @@ CMakeFiles/MTProject.dir/AST/IdentifierExprAST.cpp.o.provides.build: CMakeFiles/
 CMakeFiles/MTProject.dir/Emit.cpp.o: CMakeFiles/MTProject.dir/flags.make
 CMakeFiles/MTProject.dir/Emit.cpp.o: ../Emit.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/milendimitrov/Desktop/MTProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/MTProject.dir/Emit.cpp.o"
-	clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/Emit.cpp.o -c /home/milendimitrov/Desktop/MTProject/Emit.cpp
+	g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/Emit.cpp.o -c /home/milendimitrov/Desktop/MTProject/Emit.cpp
 
 CMakeFiles/MTProject.dir/Emit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MTProject.dir/Emit.cpp.i"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/Emit.cpp > CMakeFiles/MTProject.dir/Emit.cpp.i
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/Emit.cpp > CMakeFiles/MTProject.dir/Emit.cpp.i
 
 CMakeFiles/MTProject.dir/Emit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MTProject.dir/Emit.cpp.s"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/Emit.cpp -o CMakeFiles/MTProject.dir/Emit.cpp.s
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/Emit.cpp -o CMakeFiles/MTProject.dir/Emit.cpp.s
 
 CMakeFiles/MTProject.dir/Emit.cpp.o.requires:
 
@@ -348,15 +348,15 @@ CMakeFiles/MTProject.dir/Emit.cpp.o.provides.build: CMakeFiles/MTProject.dir/Emi
 CMakeFiles/MTProject.dir/AST/PrintExprAST.cpp.o: CMakeFiles/MTProject.dir/flags.make
 CMakeFiles/MTProject.dir/AST/PrintExprAST.cpp.o: ../AST/PrintExprAST.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/milendimitrov/Desktop/MTProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/MTProject.dir/AST/PrintExprAST.cpp.o"
-	clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/AST/PrintExprAST.cpp.o -c /home/milendimitrov/Desktop/MTProject/AST/PrintExprAST.cpp
+	g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/AST/PrintExprAST.cpp.o -c /home/milendimitrov/Desktop/MTProject/AST/PrintExprAST.cpp
 
 CMakeFiles/MTProject.dir/AST/PrintExprAST.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MTProject.dir/AST/PrintExprAST.cpp.i"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/AST/PrintExprAST.cpp > CMakeFiles/MTProject.dir/AST/PrintExprAST.cpp.i
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/AST/PrintExprAST.cpp > CMakeFiles/MTProject.dir/AST/PrintExprAST.cpp.i
 
 CMakeFiles/MTProject.dir/AST/PrintExprAST.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MTProject.dir/AST/PrintExprAST.cpp.s"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/AST/PrintExprAST.cpp -o CMakeFiles/MTProject.dir/AST/PrintExprAST.cpp.s
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/AST/PrintExprAST.cpp -o CMakeFiles/MTProject.dir/AST/PrintExprAST.cpp.s
 
 CMakeFiles/MTProject.dir/AST/PrintExprAST.cpp.o.requires:
 
@@ -372,15 +372,15 @@ CMakeFiles/MTProject.dir/AST/PrintExprAST.cpp.o.provides.build: CMakeFiles/MTPro
 CMakeFiles/MTProject.dir/AST/ReturnExprAST.cpp.o: CMakeFiles/MTProject.dir/flags.make
 CMakeFiles/MTProject.dir/AST/ReturnExprAST.cpp.o: ../AST/ReturnExprAST.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/milendimitrov/Desktop/MTProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/MTProject.dir/AST/ReturnExprAST.cpp.o"
-	clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/AST/ReturnExprAST.cpp.o -c /home/milendimitrov/Desktop/MTProject/AST/ReturnExprAST.cpp
+	g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/AST/ReturnExprAST.cpp.o -c /home/milendimitrov/Desktop/MTProject/AST/ReturnExprAST.cpp
 
 CMakeFiles/MTProject.dir/AST/ReturnExprAST.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MTProject.dir/AST/ReturnExprAST.cpp.i"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/AST/ReturnExprAST.cpp > CMakeFiles/MTProject.dir/AST/ReturnExprAST.cpp.i
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/AST/ReturnExprAST.cpp > CMakeFiles/MTProject.dir/AST/ReturnExprAST.cpp.i
 
 CMakeFiles/MTProject.dir/AST/ReturnExprAST.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MTProject.dir/AST/ReturnExprAST.cpp.s"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/AST/ReturnExprAST.cpp -o CMakeFiles/MTProject.dir/AST/ReturnExprAST.cpp.s
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/AST/ReturnExprAST.cpp -o CMakeFiles/MTProject.dir/AST/ReturnExprAST.cpp.s
 
 CMakeFiles/MTProject.dir/AST/ReturnExprAST.cpp.o.requires:
 
@@ -396,15 +396,15 @@ CMakeFiles/MTProject.dir/AST/ReturnExprAST.cpp.o.provides.build: CMakeFiles/MTPr
 CMakeFiles/MTProject.dir/AST/WhileExprAST.cpp.o: CMakeFiles/MTProject.dir/flags.make
 CMakeFiles/MTProject.dir/AST/WhileExprAST.cpp.o: ../AST/WhileExprAST.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/milendimitrov/Desktop/MTProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/MTProject.dir/AST/WhileExprAST.cpp.o"
-	clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/AST/WhileExprAST.cpp.o -c /home/milendimitrov/Desktop/MTProject/AST/WhileExprAST.cpp
+	g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/AST/WhileExprAST.cpp.o -c /home/milendimitrov/Desktop/MTProject/AST/WhileExprAST.cpp
 
 CMakeFiles/MTProject.dir/AST/WhileExprAST.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MTProject.dir/AST/WhileExprAST.cpp.i"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/AST/WhileExprAST.cpp > CMakeFiles/MTProject.dir/AST/WhileExprAST.cpp.i
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/AST/WhileExprAST.cpp > CMakeFiles/MTProject.dir/AST/WhileExprAST.cpp.i
 
 CMakeFiles/MTProject.dir/AST/WhileExprAST.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MTProject.dir/AST/WhileExprAST.cpp.s"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/AST/WhileExprAST.cpp -o CMakeFiles/MTProject.dir/AST/WhileExprAST.cpp.s
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/AST/WhileExprAST.cpp -o CMakeFiles/MTProject.dir/AST/WhileExprAST.cpp.s
 
 CMakeFiles/MTProject.dir/AST/WhileExprAST.cpp.o.requires:
 
@@ -420,15 +420,15 @@ CMakeFiles/MTProject.dir/AST/WhileExprAST.cpp.o.provides.build: CMakeFiles/MTPro
 CMakeFiles/MTProject.dir/AST/IfExprAST.cpp.o: CMakeFiles/MTProject.dir/flags.make
 CMakeFiles/MTProject.dir/AST/IfExprAST.cpp.o: ../AST/IfExprAST.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/milendimitrov/Desktop/MTProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/MTProject.dir/AST/IfExprAST.cpp.o"
-	clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/AST/IfExprAST.cpp.o -c /home/milendimitrov/Desktop/MTProject/AST/IfExprAST.cpp
+	g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/AST/IfExprAST.cpp.o -c /home/milendimitrov/Desktop/MTProject/AST/IfExprAST.cpp
 
 CMakeFiles/MTProject.dir/AST/IfExprAST.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MTProject.dir/AST/IfExprAST.cpp.i"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/AST/IfExprAST.cpp > CMakeFiles/MTProject.dir/AST/IfExprAST.cpp.i
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/AST/IfExprAST.cpp > CMakeFiles/MTProject.dir/AST/IfExprAST.cpp.i
 
 CMakeFiles/MTProject.dir/AST/IfExprAST.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MTProject.dir/AST/IfExprAST.cpp.s"
-	clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/AST/IfExprAST.cpp -o CMakeFiles/MTProject.dir/AST/IfExprAST.cpp.s
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/AST/IfExprAST.cpp -o CMakeFiles/MTProject.dir/AST/IfExprAST.cpp.s
 
 CMakeFiles/MTProject.dir/AST/IfExprAST.cpp.o.requires:
 
@@ -439,6 +439,30 @@ CMakeFiles/MTProject.dir/AST/IfExprAST.cpp.o.provides: CMakeFiles/MTProject.dir/
 .PHONY : CMakeFiles/MTProject.dir/AST/IfExprAST.cpp.o.provides
 
 CMakeFiles/MTProject.dir/AST/IfExprAST.cpp.o.provides.build: CMakeFiles/MTProject.dir/AST/IfExprAST.cpp.o
+
+
+CMakeFiles/MTProject.dir/AST/NopExprAST.cpp.o: CMakeFiles/MTProject.dir/flags.make
+CMakeFiles/MTProject.dir/AST/NopExprAST.cpp.o: ../AST/NopExprAST.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/milendimitrov/Desktop/MTProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/MTProject.dir/AST/NopExprAST.cpp.o"
+	g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MTProject.dir/AST/NopExprAST.cpp.o -c /home/milendimitrov/Desktop/MTProject/AST/NopExprAST.cpp
+
+CMakeFiles/MTProject.dir/AST/NopExprAST.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MTProject.dir/AST/NopExprAST.cpp.i"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/milendimitrov/Desktop/MTProject/AST/NopExprAST.cpp > CMakeFiles/MTProject.dir/AST/NopExprAST.cpp.i
+
+CMakeFiles/MTProject.dir/AST/NopExprAST.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MTProject.dir/AST/NopExprAST.cpp.s"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/milendimitrov/Desktop/MTProject/AST/NopExprAST.cpp -o CMakeFiles/MTProject.dir/AST/NopExprAST.cpp.s
+
+CMakeFiles/MTProject.dir/AST/NopExprAST.cpp.o.requires:
+
+.PHONY : CMakeFiles/MTProject.dir/AST/NopExprAST.cpp.o.requires
+
+CMakeFiles/MTProject.dir/AST/NopExprAST.cpp.o.provides: CMakeFiles/MTProject.dir/AST/NopExprAST.cpp.o.requires
+	$(MAKE) -f CMakeFiles/MTProject.dir/build.make CMakeFiles/MTProject.dir/AST/NopExprAST.cpp.o.provides.build
+.PHONY : CMakeFiles/MTProject.dir/AST/NopExprAST.cpp.o.provides
+
+CMakeFiles/MTProject.dir/AST/NopExprAST.cpp.o.provides.build: CMakeFiles/MTProject.dir/AST/NopExprAST.cpp.o
 
 
 # Object files for target MTProject
@@ -458,7 +482,8 @@ MTProject_OBJECTS = \
 "CMakeFiles/MTProject.dir/AST/PrintExprAST.cpp.o" \
 "CMakeFiles/MTProject.dir/AST/ReturnExprAST.cpp.o" \
 "CMakeFiles/MTProject.dir/AST/WhileExprAST.cpp.o" \
-"CMakeFiles/MTProject.dir/AST/IfExprAST.cpp.o"
+"CMakeFiles/MTProject.dir/AST/IfExprAST.cpp.o" \
+"CMakeFiles/MTProject.dir/AST/NopExprAST.cpp.o"
 
 # External object files for target MTProject
 MTProject_EXTERNAL_OBJECTS =
@@ -479,9 +504,10 @@ MTProject: CMakeFiles/MTProject.dir/AST/PrintExprAST.cpp.o
 MTProject: CMakeFiles/MTProject.dir/AST/ReturnExprAST.cpp.o
 MTProject: CMakeFiles/MTProject.dir/AST/WhileExprAST.cpp.o
 MTProject: CMakeFiles/MTProject.dir/AST/IfExprAST.cpp.o
+MTProject: CMakeFiles/MTProject.dir/AST/NopExprAST.cpp.o
 MTProject: CMakeFiles/MTProject.dir/build.make
 MTProject: CMakeFiles/MTProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/milendimitrov/Desktop/MTProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable MTProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/milendimitrov/Desktop/MTProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable MTProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MTProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -505,6 +531,7 @@ CMakeFiles/MTProject.dir/requires: CMakeFiles/MTProject.dir/AST/PrintExprAST.cpp
 CMakeFiles/MTProject.dir/requires: CMakeFiles/MTProject.dir/AST/ReturnExprAST.cpp.o.requires
 CMakeFiles/MTProject.dir/requires: CMakeFiles/MTProject.dir/AST/WhileExprAST.cpp.o.requires
 CMakeFiles/MTProject.dir/requires: CMakeFiles/MTProject.dir/AST/IfExprAST.cpp.o.requires
+CMakeFiles/MTProject.dir/requires: CMakeFiles/MTProject.dir/AST/NopExprAST.cpp.o.requires
 
 .PHONY : CMakeFiles/MTProject.dir/requires
 

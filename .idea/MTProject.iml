@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Emit.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Scanner.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Tokens.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Scanner.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AST/NopExprAST.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AST/WhileExprAST.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AST/NumberExprAST.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AST/BinaryExprAST.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AST/PrototypeAST.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AST/FunctionAST.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AST/FunctionAST.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AST/NumberExprAST.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AST/PrintExprAST.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AST/CallExprAST.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AST/NopExprAST.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AST/WhileExprAST.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AST/CallExprAST.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AST/ReturnExprAST.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AST/ExprAST.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AST/ReturnExprAST.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AST/VariableExprAST.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AST/IfExprAST.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AST/PrintExprAST.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AST/PrototypeAST.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AST/BinaryExprAST.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AST/IdentifierExprAST.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AST/ExprAST.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AST/IfExprAST.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AST/VariableExprAST.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AST/IdentifierExprAST.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Emit.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Parser.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Parser.h" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file:///usr/include" />
+          <root url="file:///usr/lib/llvm-3.5/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include" />
+          <root url="file:///usr/local/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///usr/include" />
+          <root url="file:///usr/lib/llvm-3.5/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include" />
+          <root url="file:///usr/local/include" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

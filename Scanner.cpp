@@ -75,6 +75,7 @@ Token Scanner::Next() {
                     .Case("while", TOK_WHILE)
                     .Case("break", TOK_BREAK)
                     .Case("continue", TOK_CONTINUE)
+                    .Case("nop", TOK_NOP)
                     .Case("return", TOK_RETURN)
                     .Default(TOK_IDENT);
 
